@@ -94,7 +94,7 @@ legend('S-V 1','RK-3','RK-5','Midpoint','Ralston','FontSize', 10,'Location', 'no
 
 % Specify the relative folder and filename for saving the figure
 relativeFolderPath = 'results/n_fixed_body'; % Relative folder path (subfolder)
-fileName = 'energy_2_test.svg';
+fileName = 'energy_2_test.pdf';
 
 % Ensure the folder exists, if not, create it
 if ~exist(relativeFolderPath, 'dir')
@@ -109,7 +109,7 @@ set(fig, 'Units', 'Inches');
 pos = get(fig, 'Position');
 set(fig, 'PaperPositionMode', 'Auto', 'PaperUnits', 'Inches', 'PaperSize', [pos(3), pos(4)]);
 
-% Save the figure as an SVG file
+% Save the figure as an pdf file
 saveas(fig, filePath);
 hold off
 
