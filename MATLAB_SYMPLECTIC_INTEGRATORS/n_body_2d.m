@@ -2,8 +2,9 @@ function n_body_2d
 	clc
 	clear all
 	close all
-    addpath('examples');
     addpath('methods');
+    addpath('examples');
+    addpath('plotting');
     plot_config;
 
 	m=[1/3,1/3,1/3];
