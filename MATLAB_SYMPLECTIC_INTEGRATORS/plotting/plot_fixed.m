@@ -22,7 +22,7 @@ function ax = plot_fixed(T, Y, folder, name, varargin)
         video = varargin{1};
     end
 
-    if nargin >= 5
+    if nargin > 5
         video = varargin{1};
         step = varargin{2};
         p = varargin{3};
