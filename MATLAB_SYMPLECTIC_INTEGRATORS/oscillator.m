@@ -6,7 +6,9 @@ function oscillator
     
     % Add path to the folder containing methods
     addpath('methods');
-
+    addpath('examples');
+    addpath('plotting');
+    
     % Define system parameters
     m = 1;  % Mass
     k = 1;  % Spring constant
