@@ -7,6 +7,7 @@ function pendulum
     % Add path to the folder containing methods and examples
     addpath('methods');
     addpath('examples');
+    addpath('plotting');
 
     % Load plot configuration settings
     plot_config;
