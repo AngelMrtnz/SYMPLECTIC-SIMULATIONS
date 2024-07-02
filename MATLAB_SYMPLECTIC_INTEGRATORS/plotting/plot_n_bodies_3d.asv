@@ -22,7 +22,7 @@ function ax = plot_n_bodies_3d(T, Y, folder, name, varargin)
         video = varargin{1};
     end
 
-    if nargin >= 5
+    if nargin > 5
         video = varargin{1};
         step = varargin{2};
         p = varargin{3};
