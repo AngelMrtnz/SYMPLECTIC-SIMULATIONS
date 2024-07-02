@@ -21,7 +21,7 @@ function ax = plot_solar(T, Y, folder, name, varargin)
     if nargin == 5
         video = varargin{1};
     end
-    if nargin >= 5
+    if nargin > 5
         video = varargin{1};
         step = varargin{2};
         p = varargin{3};
